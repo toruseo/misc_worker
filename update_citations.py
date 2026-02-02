@@ -32,5 +32,8 @@ out = {
     "papers": details
 }
 
-with open("citations.json", "w") as f:
-    json.dump(out, f, indent=2)
+if total > 0:
+    with open("citations.json", "w") as f:
+        json.dump(out, f, indent=2)
+else:
+    print("total is 0, skipping update (possible connection error)")
