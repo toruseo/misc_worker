@@ -14,7 +14,7 @@ jobs:
         with:
           python-version: "3.x"
       - run: pip install requests
-      - run: python update_citations.py
+      - run: python update_citations_github_wiki.py
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
