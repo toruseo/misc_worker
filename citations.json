@@ -1,15 +1,1 @@
-{
-  "total_citations": 11,
-  "papers": [
-    {
-      "doi": "10.21105/joss.07617",
-      "title": "UXsim: lightweight mesoscopic traffic flow simulator in pure Python",
-      "citationCount": 6
-    },
-    {
-      "doi": "10.48550/arXiv.2309.17114",
-      "title": "UXsim: An open source macroscopic and mesoscopic traffic simulator in Python - a technical overview",
-      "citationCount": 5
-    }
-  ]
-}
+{"total_citations": 16}
