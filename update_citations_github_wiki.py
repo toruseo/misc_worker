@@ -11,7 +11,7 @@ r = requests.get(URL)
 r.raise_for_status()
 text = r.text
 
-# Citations ƒZƒNƒVƒ‡ƒ“‚ğ’Šo
+# Citations ã‚»ã‚¯ã‚·ãƒ§ãƒ³ã‚’æŠ½å‡º
 m = re.search(
     r'^##\s+Academic Publications\s*(.*?)(?:\n##\s+|\Z)',
     text,
@@ -23,7 +23,7 @@ if not m:
 
 section = m.group(1)
 
-# ”Ô†•t‚«ƒŠƒXƒg‚ğƒJƒEƒ“ƒg
+# ç•ªå·ä»˜ããƒªã‚¹ãƒˆã‚’ã‚«ã‚¦ãƒ³ãƒˆ
 pattern = re.compile(r'^\s*\d+\.\s+', re.MULTILINE)
 count = len(pattern.findall(section))
 
